@@ -1,0 +1,276 @@
+.recordedCourse {
+    display: flex;
+    justify-content: space-between;
+    width: 88.88%;
+    margin: 0 auto;
+    background-color: var(--HeaderBackground);
+    border-radius: 20px;
+}
+
+.videoImg {
+    margin-left: 30px;
+    width: 63.125%;
+    margin-right: 42px;
+}
+
+.heroImage,
+.heroImage img {
+    width: 100%;
+}
+
+.linksToHome {
+    list-style: none;
+    padding: 27px 0;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.linksToHome li {
+    margin-right: 5px;
+    color: var(--Purple);
+}
+
+.linksToHome li a {
+    text-decoration: none;
+    color: var(--LightWritingColor);
+}
+
+.linksToHome span {
+    margin: 0 5px;
+    color: var(--TypeSearchBoxes);
+}
+
+.heroImage {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.playList .CoursePlaylists {
+    margin-bottom: 20px;
+}
+
+.playList {
+    width: 29.844%;
+    margin-top: 1.95%;
+    margin-right: 1.4%;
+    margin-bottom: 5.46%;
+}
+
+.playList .CoursePlaylists,
+.videoImg h3 {
+    color: var(--WritingColor);
+    font-family: "Metropolis", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.playList p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--WritingColor);
+}
+
+.lesson {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    background-color: var(--White);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.lesson:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.lesson img {
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+}
+
+.third-lesson-img {
+    filter: brightness(75%) sepia(0);
+}
+
+.lessonInf {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+}
+
+.lessonInf p {
+    margin: 0;
+    color: var(--Orange);
+    font-size: 14px;
+}
+
+.lessonInf .lessonTitle {
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 16px;
+    color: var(--WritingColor);
+}
+
+.locked {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.lockIcon img {
+    width: 20px;
+    height: auto;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+
+.lesson.has-lock-icon.lockIcon {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.lesson.lockIcon {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lesson:hover>.lessonInf>.lessonTitle {
+    overflow: visible;
+    white-space: normal;
+    text-overflow: clip;
+}
+@media screen and (max-width: 374px) {
+    .recordedCourse {
+        width: 89.33%;
+        flex-direction: column;
+    }
+
+    .videoImg,
+    .playList {
+        width: 91.04%;
+        margin: 0 auto;
+    }
+
+    .CoursePlaylists,
+    .lesson:nth-child(n + 7) {
+        display: none;
+    }
+
+    .videoImg h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .linksToHome {
+        padding: 6.55% 0;
+    }
+
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
+
+    .recordedCourse {
+        width: 89.33%;
+        flex-direction: column;
+    }
+
+    .videoImg,
+    .playList {
+        width: 91.04%;
+        margin: 0 auto;
+    }
+
+    .CoursePlaylists,
+    .lesson:nth-child(n + 7) {
+        display: none;
+    }
+
+    .videoImg h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .linksToHome {
+        padding: 6.55% 0;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1023px) {
+    .recordedCourse {
+        width: 89.33%;
+        flex-direction: column;
+    }
+
+    .videoImg,
+    .playList {
+        width: 91.04%;
+        margin: 0 auto;
+    }
+
+    .lesson:nth-child(n + 7) {
+        display: none;
+    }
+
+    .videoImg h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .linksToHome {
+        padding: 6.55% 0;
+    }
+
+    .CoursePlaylists {
+        text-align: center;
+        padding-top: 2%;
+
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+
+    .recordedCourse {
+        width: 92.19%;
+    }
+
+    .videoImg {
+        width: 54.23%;
+    }
+
+    .lesson:nth-child(n + 6) {
+        display: none;
+    }
+
+    .videoImg h3 {
+        font-size: 20px;
+    }
+
+    .lessonInf .lessonTitle {
+        font-size: 18px;
+    }
+
+    .lesson {
+        border-radius: 5px;
+    }
+
+    .playList {
+        width: 36.76%;
+        margin-top: 2.65%;
+        margin-right: 3.17%;
+        margin-bottom: 4.41%;
+    }
+}

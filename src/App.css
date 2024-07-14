@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./Fonts/Metropolis-Black.otf') format('otf'),
+       url('./Fonts/Metropolis-BlackItalic.otf') format('otf'),
+       url('./Fonts/Metropolis-Bold.otf') format('otf'),
+       url('./Fonts/Metropolis-BoldItalic.otf') format('otf'),
+       url('./Fonts/Metropolis-ExtraBold.otf') format('otf'),
+       url('./Fonts/Metropolis-ExtraBoldItalic.otf') format('otf'),
+       url('./Fonts/Metropolis-ExtraLight.otf') format('otf'),
+       url('./Fonts/Metropolis-ExtraLightItalic.otf') format('otf'),
+       url('./Fonts/Metropolis-Light.otf') format('otf'),
+       url('./Fonts/Metropolis-LightItalic.otf') format('otf'),
+       url('./Fonts/Metropolis-Medium.otf') format('otf'),
+       url('./Fonts/Metropolis-MediumItalic.otf') format('otf'),
+       url('./Fonts/Metropolis-Regular.otf') format('otf'),
+       url('./Fonts/Metropolis-RegularItalic.otf') format('otf'),
+       url('./Fonts/Metropolis-SemiBold.otf') format('otf'),
+       url('./Fonts/Metropolis-SemiBoldItalic.otf') format('otf'),
+       url('./Fonts/Metropolis-Thin.otf') format('otf'),
+       url('./Fonts/Metropolis-ThinItalic.otf') format('otf');
+
+}

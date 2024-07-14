@@ -1,0 +1,56 @@
+.MB-Course-tabs
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+}
+.MB-Course-tabs button{
+    background-color: var(--White);
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+    color: var(--WritingColor);
+    padding: 20px ;
+    border: none;
+    border-radius: 10px;
+}
+.MB-Course-tabs .MB-active-tab{
+    background-color: var(--Orange);
+    color: var(--White);
+}
+
+.MB-background-with-tab{
+    background-color: var(--White);
+    font-family: 'Inter' !important;
+    font-size: 1rem  !important;
+    font-weight: 500  !important;
+    line-height: 20px  !important;
+    color: var(--WritingColor)  !important;
+    padding: 10px 20px !important;
+}
+.MB-tabs .MB-Tabs-active{
+    background-color: var(--Orange) !important;
+    font-family: 'Inter' !important;
+    font-size: 1rem  !important;
+    font-weight: 500  !important;
+    line-height: 20px  !important;
+    padding: 10px 20px !important;
+}
+.Purple{
+    color: var(--Purple) !important;
+}
+.MB-title-h1{
+    font-family: 'Metropolis' , sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 30px;
+    color: var(--WritingColor);
+    margin: 40px 0 30px 0;
+}
+@media (max-width:1115px){
+    .MB-Course-tabs button{
+        margin: 10px 5px;
+    }
+}

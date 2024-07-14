@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footerContainer {
+    padding: 0;
+    width: 88.75%;
+    margin: 0 auto;
+    margin-bottom: 4.375%;
+}
+
+.footerContainer li {
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: start;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.aboutLogo,
+.fCourses,
+.fCommunity,
+.fQuickLinks,
+.fMore {
+    display: flex;
+    flex-direction: column;
+}
+
+.fLogo {
+    width: 144px;
+    padding: 0;
+}
+
+.aboutLogo ul,
+.fCourses ul,
+.fCommunity ul,
+.fQuickLinks ul,
+.fMore ul {
+    padding: 0;
+    list-style: none;
+}
+
+.fCourses ul,
+.fCommunity ul,
+.fQuickLinks ul,
+.fMore ul {
+    max-width: fit-content;
+}
+
+.aboutLogo {
+    width: 13.30%;
+}
+
+.fCourses {
+    width: 15.41%;
+}
+
+.fCommunity {
+    width: 9.93%;
+}
+
+.fQuickLinks {
+    width: 13.69%;
+}
+
+.fMore {
+    width: 5.47%;
+}
+
+.aboutLogo .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 13.53%;
+}
+
+.aboutLogo p, .aboutLogo span {
+    margin-bottom: 8.82%;
+}
+
+.aboutLogo img {
+    margin-bottom: 14.70%;
+}
+
+.fTitle {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 22px;
+    color: #0A033C;
+}
+
+.fTitleLogo {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #5D5A6F;
+}
+
+.linksP {
+    font-family: "Metropolis", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5D5A6F;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #9C4DF4;
+}
+
+@media (max-width: 425px) {
+    .footerContainer {
+         width: 52.53%;
+         margin-left: 5.33%;
+         margin-right: 42.13%;
+     }
+ 
+    .aboutLogo {
+         width: 86.29%; 
+     }
+ 
+    .fCourses {
+         width: 100%;
+     }
+ 
+    .fCommunity {
+          width: 64.46%; 
+     }
+ 
+    .fQuickLinks {
+         width: 88.83%; 
+     }
+ 
+    .fMore {
+         width: 35.53%; 
+     }
+ 
+     footer {
+         flex-direction: column;
+         gap: 15.23%;
+         flex-wrap: wrap-reverse; 
+     }
+ 
+    .aboutLogo,.fCourses,.fCommunity,.fQuickLinks,.fMore {
+         flex-basis: 100%;
+     }
+ 
+    .fCourses {
+         order: 2; 
+     }
+ 
+    .fQuickLinks {
+         order: 3; 
+     }
+ 
+    .fMore {
+         order: 4; 
+     }
+ }
+ @media screen and (min-width: 426px) and (max-width:1024px) {
+    .footerContainer {
+        width:92.1875% ;
+    }
+    .aboutLogo {
+        width: 15.78%;
+}
+.fCourses {
+    width: 18.32%;
+}
+li.fTitle {
+    font-size: 18px;
+}
+.linksP {
+    font-size: 14px;}
+    .fCommunity {
+        width: 11.758%;
+}
+.fQuickLinks {
+    width: 16.10%;
+}
+.fMore {
+    width: 6.4618%;
+}
+.aboutLogo img {
+    margin-bottom: 17.36%;
+}
+
+ }

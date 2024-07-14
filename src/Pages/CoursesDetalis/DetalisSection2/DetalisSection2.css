@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ne-left,.ne-right{
+    display: flex;
+    gap: 16px;
+    height: 133px;
+    display: flex;
+    gap: 16px;
+    height: 133px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 9px;
+      width: 45%;
+}
+.ne-first-div-cotain-left-right{
+    display: flex;
+    justify-content: space-between;
+}
+.ne-second-div-cotain-left-right{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.ne-similar-container{
+    width: 88%;
+    margin: 0 6% 120px 6%;
+}
+.ne-similar-cors-p{
+    height: 55px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 35px;
+    
+
+    font-family:"Metropolis" ,sans-serif ;
+    color: var(--WritingColor);
+
+}
+.ne-asid-img .p{
+    width: 100%;
+    height: 20px;
+    font-family: "Metropolis" , sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.ne-asid-img{
+   width: 60%;
+   margin-top: 15px;
+}
+.ne-price-bag{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.ne-bagg{
+    width: 26px;
+    padding: 5px;
+    background: #F7F5FA;
+    height: 31px;
+    border-radius: 5px;
+}
+.ne-price{
+    width: 88px;
+    height: 20px;
+    font-family: "Metropolis";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #FF6652;
+}
+.ne-img{
+    width: 35%;
+}
+.ne-s{
+    margin-left: 3px;
+}
+.ne-iconstars{
+    margin-left: 10px;
+}
+@media (min-width: 777px)  and (max-width: 1200px){
+    .ne-asid-img .p{
+        font-size: 15px;
+        /*width:170px*/ ;
+    }
+    
+    .ne-s {
+        width: 15px;
+    }
+    .ne-price{
+        font-size: 21px;
+    }
+    .ne-bagg {
+        width: 24px;
+        padding: 4px;
+        height: 27px;}
+        .ne-bagg img{
+            width: 14px;
+        }
+}
+@media (min-width: 576px)  and (max-width: 777px){
+    .ne-asid-img .p{
+        /*width: 122px;*/
+        font-size: 10px;
+    }
+    .ne-s{
+        width: 12px;
+    }
+    .ne-price{
+        font-size: 21px;
+    }
+    .ne-bagg{
+        height: 20px;
+        width: 20px;
+    }
+    .ne-bagg img{
+        width: 12px;
+    margin-bottom: 20px;
+    }
+}
+@media (min-width: 350px)  and (max-width: 576px){
+   
+    .ne-first-div-cotain-left-right{
+        flex-direction: column;
+        
+    }
+    .ne-left,.ne-right{
+        width: 100%;
+    }
+    .ne-right{
+        margin-top: 30px;
+    }
+    .ne-second-div-cotain-left-right{
+        flex-direction: column;
+    }
+    .ne-asid-img .p{
+        font-size: 14px;
+    }
+    .ne-similar-cors-p{
+        font-size: 38px;
+    }
+}

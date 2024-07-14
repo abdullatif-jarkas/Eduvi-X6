@@ -1,0 +1,33 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background-color: var(--BodyColor);
+}
+  
+
+
+
+:root {
+  --BodyColor: #F7F5FA;
+  --WritingColor: #0A033C;
+  --LightWritingColor: #5D5A6F;
+  --Orange: #FF6652;
+  --Purple: #9C4DF4;
+  --White: #FFFFFF;
+  --LightPurple: #F8F2FF;
+  --Golden: #FFC107;
+  --Green: #00DF76;
+  --HeaderBackground: #EFEBF5;
+  --TypeSearchBoxes: #5D5A6F99;
+}
+
+body {
+  background-color: var(--BodyColor);
+  color: var(--WritingColor);
+  font-family: 'Metropolis', sans-serif;
+}

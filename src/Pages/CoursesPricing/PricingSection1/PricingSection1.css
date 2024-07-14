@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ne-section1-pricing{
+    width: 88%;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.ne-picing-cards{
+    display: flex;
+    text-align: start;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.ne-creat{
+    /*width: 64%;*/
+    height: 110px;
+    font-family: "Metropolis", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+
+
+}
+.ne-pricing-p{
+    width: 65%;
+    height: 90px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--LightWritingColor);
+}
+.ne-card{
+    width: 31%;
+    
+    border-radius: 10px;
+    padding: 20px;
+    background-color:var(--White);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.ne-basic{
+    font-size: 30px;
+    font-weight: 600;
+}
+.ne-card-p{
+    color: var(--LightWritingColor);
+
+}
+.ne-dolar{
+    color: var(--WritingColor);
+    font-size: 30px;
+    font-weight: 600;
+}
+.ne-purchase{
+    width: 85%;
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    color: #9C4DF4;
+    border: 1px solid #9C4DF4;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.ne-purchase:hover{
+    background-color: #9C4DF4;
+    color: white;
+}
+@media (min-width: 576px)  and (max-width: 768px){
+    .ne-creat{
+        height: max-content;
+    }
+    .ne-pricing-p {
+        height: max-content;
+        margin-bottom: 30px;
+    }
+    .ne-basic{
+        font-size: 21px;
+    }
+}
+@media (min-width: 300px)  and (max-width: 576px){
+    .ne-card {
+        width: 100%;
+    }
+        .ne-picing-cards{
+            flex-direction: column;
+            gap: 30px;
+        }
+        .ne-creat {
+            height: max-content;
+        }
+        .ne-pricing-p {
+            height: max-content;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+}

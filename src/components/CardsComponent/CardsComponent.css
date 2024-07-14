@@ -1,0 +1,250 @@
+.MB-container-cardhomepage{
+    padding: 0 80px ;
+    margin-bottom: 120px !important;
+}
+.header-title {
+    width: 658px;
+    height: 45px;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 2.18rem;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: center;
+    color: var( --WritingColor);
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  .header-subtitle{
+    width: 700px;
+    height: 56px;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: var( --LightWritingColor);
+    margin: 0 auto 20px; 
+    padding: 10px 0;
+
+  }
+ 
+.circle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .MB-Tabs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin:0 0 45px 0;
+
+
+  }
+  .MB-Tabs button{
+    background-color: var(--BodyColor);
+    border: none;
+  border-radius: 5px;
+  padding: 16px 26px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 20px;
+  color: var(--WritingColor);
+    
+  }
+  .MB-Tabs .MB-active-tab{
+    background-color: var(--Orange);
+    color: var(--White);
+    border-radius: 10px;
+    padding: 20px 30px;
+  }
+  .custom-nav {
+    width: 360px;
+    height: 50px;
+    border-radius: 5px 0px 0px 0px;
+    margin: 0 auto;
+    top: 1874.04px;
+    left: 312px;
+  }
+  
+  .photo {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 1; /* Ensure images are visible */
+  }
+  
+  .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7, .photo8 {
+    width: 50px;
+    height: 50px;
+    gap: 0px;
+    opacity: 0px;
+    display: block;
+    margin: 0 auto 20px auto; /* Center the image and add margin at the bottom */
+  }
+  
+  .custom-nav .nav-link.active {
+    background-color:var(--Orange);
+    color: var(--White);
+    border-radius: 10px;
+   
+    
+  }
+  
+  .custom-nav .nav-link {
+    color: var(--WritingColor);
+    font-weight: 500;
+    font-family: 'inter';
+    font-size: 1rem;
+    line-height: 20px;
+  }
+  
+  .custom-visit-button {
+    background-color: var(--Purple);
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 225px;
+    border: none;
+    transition: 1s;
+    
+  }
+  .custom-visit-button a{
+    text-decoration: none;
+    color: var(--White);
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'Inter';
+  }
+ .custom-visit-button:hover{
+   background-color: var(--Purple);
+   
+   letter-spacing: 1px;
+
+  }
+
+  
+  
+  .custom-card {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    border-radius: 15px ;
+    border: 1px #ffffff;
+    /*padding: 20px;*/
+   /* min-height: 300px;
+    max-height: 300px;*/
+  }
+  
+  .custom-card .card-title {
+    font-size: 1.56rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    line-height: 25px;
+   font-family: 'Metropolis' , sans-serif;
+   color: var(  --WritingColor);
+  }
+  
+  .custom-card .card-text {
+    margin-bottom: 2rem;
+    font-family: 'Metropolis' , sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    color:var(--LightWritingColor);
+    
+  }
+  
+  .custom-card .btn-outline-primary {
+    border-color: var(--Purple);
+    color: var(--Purple) !important;
+    margin-top: auto;
+    width: 162px;
+    padding: 12px 31px;
+   
+    border-radius: 5px;
+  }
+/*  .custom-card .btn-outline-primary a{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: 1rem;
+    color: var(--Purple);
+    
+
+  }*/
+  
+  .custom-card .btn-outline-primary:hover {
+    background-color: var(--Purple);
+    color: white !important;
+  }
+  
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .custom-nav .nav-link {
+      width: 130px;
+    }
+  }
+  
+  /* Custom styles for the specified sections */
+ 
+  .header-subtitle {
+    
+  }
+  
+  .custom-card .card-img-top {
+    width: 50px;  /* Adjust this size as needed */
+    height: 50px; /* Adjust this size as needed */
+    margin: 0 auto;
+  }
+  @media(max-width:770px) and (min-width:580px){
+    .header-title{
+        width: 100%;
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 3.5% !important;
+    }
+
+    .header-subtitle {
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 40px !important;
+
+    
+    }
+    .custom-nav{
+        margin-bottom: 80px !important;
+
+
+    }
+
+  }
+  @media(max-width:579px){
+
+    .header-title {
+        width: 100%;
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 50px !important;
+
+    }
+    .header-subtitle{
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 85px !important;
+
+    }
+  }
+  

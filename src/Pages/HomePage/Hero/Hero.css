@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+.ne-hero-ssection{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    padding-right: 3%;
+    padding-left: 6%;
+    width: 100%;
+    
+    
+}
+.ne-hero-right-img{
+    height: 641px;
+    width: 47%;
+}
+.ne-hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    /* k*/
+    width: 43%;
+}
+.never-stop-learning p{
+    
+    font-family:"Metropolis" , sans-serif;
+   font-size: 1.25rem;
+   font-weight: 500;
+   line-height: 16px;
+   color: var(--Orange);
+ }
+.never-stop-learning{
+    width: 239px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:var(--White);
+    padding: 15px 26px;
+}
+.ne-grow-up{
+    width: 607px;
+    height: 225px;
+    font-family: "Metropolis", sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 75px;
+    color: var( --WritingColor);
+}
+.ne-lorem{
+    width: 481px;
+    height: 84px;
+    color: var(--LightWritingColor);
+    font-family: "Metropolis" , sans-serif;
+}
+.ne-left-search{
+    
+    width: 607px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: var(--White);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4px;
+    align-items: center;
+}
+.ne-left-search input{
+    width: 128px;
+    height: 24px;
+    border: transparent;
+    font-family:" Metropolis" , sans-serif;
+    font-weight: 500;
+    margin-left: 23px;
+    color:var(--LightWritingColor) ;
+    opacity: 0.5;
+}
+.ne-but-search{
+   width: 143px;
+   height: 50px;
+   border-radius: 10px ;
+   border: transparent;
+   background-color: var(--Purple);
+   font-family:"Inter";
+   color: var(--White);
+   font-weight: 500;
+   font-size: 1rem;
+   line-height: 20px;  
+}
+.ne-class-course{
+    font-family:" Metropolis" , sans-serif;
+    color: var(--LightWritingColor);
+    opacity: 0.5;
+    font-size: 1rem;
+    line-height: 16px;
+    font-weight: 500;
+    margin-left: 25px;
+
+}
+.ne-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ne-class-course{
+    border-left: 2px solid #5D5A6F99;
+    padding-left: 15px;
+}
+.ne-herodiv1 a{
+    text-decoration: none;
+    color: var(--LightWritingColor);
+}
+.ne-herodiv2 a{
+    text-decoration: none;
+    color: var(--Purple);
+}
+@media (min-width: 768px)  and (max-width: 1120px){
+    .ne-grow-up {
+        width: 100%;
+        font-size: 30px;
+        line-height:41px;
+        height: 110px;
+    }
+    .ne-lorem {
+        width: 100%;
+        
+    }
+    .ne-left-search {
+        width: 357px;
+    }
+    .ne-hero-left{
+        gap: 3px;
+    }
+    .ne-left-search {
+       height: 44px;
+       width: 100%;
+    }
+
+       .ne-but-search{
+        width: 53px;
+        height: 29px;
+        font-size: 10px;
+       }
+       .ne-but-search img{
+        width: 15px;
+       }
+       .ne-left-search input{
+        width: 87px;
+       }
+       .ne-class-course{
+        margin-left: 6px;
+        padding-left: 10px;
+       }
+       .ne-left-search input{
+        margin-left: 9px;
+       }
+}
+/*@media (min-width: 576px)  and (max-width: 768px){
+    .ne-grow-up {
+        width: 100%;
+        height: 117px;
+        font-size: 24px;
+        line-height: 37px;
+    }
+    .ne-lorem {
+        width: 100%;
+        height: 143px;
+       }
+       .ne-left-search {
+        width: 100%;
+        height: 31px;
+    }
+    .ne-left-search input {
+        width: 93px;
+        height: 24px;
+        margin-left: 6px
+    }
+}    */
+@media (min-width: 300px)  and (max-width: 768px){
+    .ne-hero-ssection {
+        height: max-content;
+        width: 100%;
+        flex-direction: column;
+    align-items: flex-start;
+                }
+   .ne-hero-left{
+       width: 100%;
+                }
+    .ne-grow-up {
+        width: 100%;
+        height: max-content;
+        font-family: "Metropolis", sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 58px;
+    }
+    .ne-lorem {
+        width: 100%;
+    }
+    .ne-left-search {
+        width: 100%;
+        height: 30px;
+        padding-right: 0px;
+    }
+    .ne-left-search input {
+        width: 88px;
+        height: 24px;
+        margin-left: 3px;
+        
+    }
+    .ne-class-course {
+        margin-left: 1px;
+        padding-left: 5px;
+    }
+    .ne-but-search {
+        width: 70px;
+        height: 22px;
+        font-size: 12px;
+    }
+    .ne-but-search img{
+        width: 15px;
+    }
+    .ne-hero-right-img {
+        height: 370px;
+        width: 100%;
+    }
+}   
+
+/*<img src='./images/Homepage/Hero/lap.png'></img>  */

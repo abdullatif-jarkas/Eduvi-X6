@@ -1,0 +1,244 @@
+.container {
+    margin: 30px auto;
+    width: 88.88%;
+    padding: 0;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bergerMenu {
+    margin: 0;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.logo {
+    width: 8.9%;
+}
+
+.logo .eduviLogo {
+    width: 100%;
+}
+
+.menu {
+    width: 55.7%;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-top: 0.42%;
+    width: 100%;
+}
+
+.menu ul li {
+    position: relative;
+}
+
+.menu ul li .tabs {
+    text-decoration: none;
+    color: var(--WritingColor);
+    font-family: "Metropolis", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.menu ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--LightPurple);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    min-width: 160px;
+}
+
+.menu ul li .dropdown-content a {
+    color: var(--WritingColor);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.menu ul li .dropdown-content a:hover {
+    background-color: #EFEBF5;
+    color: var(--Purple);
+}
+
+.menu ul li .tabs :hover ,.menu ul li a:hover {
+    color: var(--Purple);
+}
+
+.menu ul li:hover .dropdown-content {
+    display: block;
+}
+
+.rightPart {
+    width: 20.54%;
+}
+
+.rightPart ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.sideMenu {
+    background: #f7f5fad4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    position: fixed;
+    top: 75px;
+    right: 0;
+    z-index: 12;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+
+.sideMenuLIST {
+
+    padding-top: 50px;
+    text-align: center;
+    list-style: none;
+}
+
+.sideMenu a {
+    color: var(--WritingColor);
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.sideMenu a:hover {
+    color: var(--Purple);
+}
+
+.rightPart .cart span,
+.rightPart .profile span {
+    padding-top: 2.66%;
+}
+
+.rightPart .profile,
+.rightPart .cart {
+    display: flex;
+    gap: 10px;
+}
+
+.regular-font {
+    font-family: "Metropolis", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.menu a,
+.rightPart a {
+    color: var(--WritingColor);
+    text-decoration: none;
+}
+
+.menu a:hover,
+.menu a:focus,
+.rightPart a:hover,
+.rightPart a:focus {
+    color: #9C4DF4;
+}
+
+.burger-icon {
+    display: none;
+}
+
+.burger-icon svg {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        width: 89.33%;
+        margin-top: 10.66%;
+        margin-bottom: 5.33%;
+    }
+
+    .burger-icon {
+        display: flex;
+        align-content: stretch;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 24.77%;
+    }
+}
+
+.menu,
+.rightPart {
+    display: none;
+}
+
+.logo {
+    width: 29.55%;
+}
+
+
+@media screen and (min-width: 426px) and (max-width:1024px) {
+    .menu {
+        display: none;
+    }
+
+    .burger-icon {
+        display: flex;
+    }
+
+    .logo {
+        width: 12.07%;
+    }
+
+    .rightPart {
+        display: flex;
+        width: 27.86%;
+        margin-left: 46%;
+    }
+
+    .rightPart .cart {
+        display: flex;
+        justify-content: space-between;
+        width: 38.03%;
+    }
+
+    li.regular-font.profile {
+        width: 50.57%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .verticalMenu ,.sideMenu {
+        display: none;
+    }
+    .logo{
+        width: 8.9%;
+    }
+    .menu, .rightPart {
+        display:inherit;
+}
+}
+

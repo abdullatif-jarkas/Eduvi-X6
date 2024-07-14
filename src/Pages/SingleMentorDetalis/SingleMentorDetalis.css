@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.SD-heroContainer {
+  margin: 0 auto;
+  width: 88.88%;
+}
+
+img.SD-backgroundL,
+img.SD-backgroundM,
+img.SD-backgroundT {
+  width: 100%;
+}
+
+.mentor-details {
+  display: flex;
+  justify-content: space-between;
+  width: 65.4%;
+}
+
+.mentor-text {
+  margin-top: 90px;
+}
+
+.mentor-info {
+  display: flex;
+  margin-top: -85px;
+}
+
+.contact-button {
+  margin-top: 25px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: var(--White);
+  background: var(--Purple);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.mentor-name {
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--WritingColor);
+  margin: 0;
+  padding: 0;
+  font-family: 'Metropolis', sans-serif;
+
+}
+
+.mentor-title {
+  color: var(--LightWritingColor);
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+.SD-leftPart {
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mentor-photo {
+  margin-right: 20px;
+}
+
+.mentor-photo img {
+  width: 100%;
+}
+
+.SD-background .SD-backgroundM,
+.SD-background .SD-backgroundT {
+  display: none;
+}
+
+.SD-rightPart {
+  width: 32.25%;
+  margin-top: 25px;
+  background: var(--White);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.SD-rightPart ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.SD-card-list-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.SD-card-list-left span {
+  padding-bottom: 25px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--LightWritingColor);
+}
+
+span.totalCourses {
+  font-size: 24px;
+  color: var(--Orange);
+}
+
+span.SD-ratingOrang {
+  color: var(--Orange);
+}
+
+span.SD-star {
+  color: var(--WritingColor);
+}
+
+img.SD-icons {
+  margin-left: 10px;
+}
+
+.SD-tabs {
+  width: 48.70%;
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.tabsANContent {
+  width: 65.4%;
+  padding-left: 30px;
+  margin-top: -260px;
+  margin-bottom: 80px;
+}
+
+.SD-tabs button {
+  padding: 20px 30px;
+  color: var(--WritingColor);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--White);
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Inter';
+}
+
+
+.SD-tabs button.active {
+  background-color: var(--Orange);
+  color: var(--White);
+}
+
+.SD-About {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--WritingColor);
+}
+
+.SD-lorem {
+  color: var(--LightWritingColor);
+}
+
+.SD-lorem ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 425px) {
+
+  .SD-heroContainer {width: 89.33%;}
+
+
+  .SD-background .SD-backgroundT ,
+  .SD-background .SD-backgroundL {display: none;}
+
+
+  .SD-background .SD-backgroundM {display: block;}
+
+  .SD-leftPart,.mentor-details ,.mentor-info ,.SD-rightPart,.tabsANContent{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+  }
+  .tabsANContent,.SD-leftPart {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+.mentor-photo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.mentor-photo img {
+  width: 38.80%;
+}
+.mentor-info {
+  margin-top: -65px;
+}
+.mentor-text {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-button {
+  margin: 0;
+  border-radius: 5px;
+  padding: 17px 36px;
+}
+.SD-card-list-left span {
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+span.totalCourses {
+  font-size: 20px;
+}
+
+.SD-rightPart,
+.tabsANContent {
+  margin-top: 30px;
+}
+
+.SD-tabs {
+  width: 93.43%;
+  margin-bottom: 20px;
+}
+
+.SD-tabs button {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.SD-content {
+  margin-bottom: 50px;
+}
+
+}
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .SD-heroContainer {width: 92.19%;}
+
+  .SD-rightPart {width: 38.7%;}
+
+  .mentor-details {width: 59.09%;}
+
+  .mentor-info {width: 55%;}
+
+  .mentor-photo {width: 47.14%;}
+
+  .mentor-text {width: 47.81%;}
+
+  .SD-background .SD-backgroundL {display: none;}
+
+  .SD-background .SD-backgroundT {display: block;}
+
+  .SD-background .SD-backgroundM {display: none;}
+
+  .mentor-name {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .mentor-title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .mentor-info {margin-top: -68px;}
+
+  .contact-button {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px 25px;
+  }
+
+  .leftPart,.SD-star {font-size: 18px;}
+
+  span.totalCourses {font-size: 20px;}
+
+  .tabsANContent {margin-top: -245px;}
+
+  .tabsANContent {width: 60.4%;}
+
+  .SD-tabs {width: 63.51%;}
+
+  .SD-tabs button {font-size: 14px;}
+
+  .SD-tabs button {padding: 15px 25px;}
+
+  .SD-card-list-left span {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+
+  span.totalCourses {font-size: 20px;}
+}
+
+
+
+
+
+

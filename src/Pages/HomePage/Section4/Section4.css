@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+.MB-Section4-Container{
+    background-color: var(--BodyColor);
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    padding: 10% 0;
+    margin: 0 auto ;
+}
+.MB-img-Section4{
+    width: 510px;
+    height: 400px;
+   
+}
+.MB-title-Section4{
+    width: 500px;
+    height: 375px;
+}
+.MB-paragraph1-Section4{
+    width: 435px;
+    height: 165px;
+    font-family: 'Metropolis' , sans-serif;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 55px;
+    color:var(--WritingColor) ;
+}
+.MB-paragraph2-Section4{
+    width: 500px;
+    height: 90px;
+    font-family: 'Metropolis' , sans-serif;
+    font-size: 1rem;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--LightWritingColor);
+   
+}
+.MB-btn-Section4{
+    background-color: var(--Purple);
+    width: 204px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter';
+    color: var( --White);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    transition: 0.5s;
+}
+.MB-btn-Section4:hover{
+    background-color: var(--White);
+    color: var(--Purple);
+    letter-spacing: 1px;
+}
+
+@media(max-width:1115px) and (min-width:991px){
+    .MB-Section4-Container{
+     width: 100%;
+    /* padding: 6.94% 7.50%;*/
+        
+    }
+   
+}
+@media (max-width:1095px) and (min-width:529px) {
+   .MB-Section4-Container{
+        /*padding: 6.94% 7.9%;*/
+        flex-wrap: wrap;  
+    }
+    
+
+}
+@media(max-width:530px){
+    .MB-Section4-Container{
+        flex-wrap: wrap;
+    }
+    .MB-img-Section4{
+        width: 300px;
+    }
+    .MB-title-Section4{
+        width: 400px;
+        padding:0 15px;
+    }
+
+
+    .MB-paragraph2-Section4{
+        width: 400px;
+    }
+    .MB-paragraph1-Section4{
+        width: 100%;
+    }
+
+}
+@media(max-width:556px){
+    .MB-img-Section4{
+        width: 280px;
+    }
+    .MB-title-Section4{
+        width: 400px;
+       
+    }
+    .MB-btn-Section4{
+        margin-top: 20px;
+    }
+   
+
+}
+@media(max-width:450px){
+    .MB-img-Section4{
+        width: 270px;
+
+    }
+
+    .MB-paragraph1-Section4{
+        font-size: 28px;
+        width: 300px;
+        line-height: 32px;
+        height: 96px;
+        
+    }
+    .MB-paragraph2-Section4{
+        line-height: 24px;
+        width: 290px;
+       margin-bottom: 25px;
+    }
+    .MB-title-Section4{
+        width:400px;
+    }
+    .MB-btn-Section4{
+        width: 176px;
+        height: 50px;
+        border-radius: 5px;
+    }
+}
